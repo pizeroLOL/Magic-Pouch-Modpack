@@ -10,4 +10,4 @@
 遵循原则：
   按流程走不费力，费力可不按流程。
   堆量物品自动化，无法自动不堆量。
-灵感主要来源于Obsida Tech & Divine Joourney2等知名科技整合，目前侧重开发中。
+灵感主要来源于Obsida Tech & Divine Journey2等知名科技整合，目前侧重开发中。
