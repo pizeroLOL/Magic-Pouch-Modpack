@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	dependencies: [
+		"c9e74cfe"
+	],
+	tasks: [{
+		uid: "7090f20f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "e6594376",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "地底的异响",
+	x: -1.5d,
+	y: -1.0d,
+	description: "在无名遗迹中，埋藏着污染的源头",
+	tasks: [{
+		uid: "e2326b49",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:ancient_greatsword"
+		},
+		entity: "thebetweenlands:sludge_menace",
+		value: 1L
+	}]
+}

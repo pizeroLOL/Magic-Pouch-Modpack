@@ -1,0 +1,84 @@
+{
+	title: "特殊背包",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "quark:backpack",
+		tag: {
+			Inventory: [{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}]
+		}
+	},
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		"这种背包可以扩展你的物品栏，使物品栏翻倍，可以装在胸甲栏或背部饰品栏，可以在皮匠手中购买。"
+	],
+	tasks: [{
+		uid: "7bfb3b1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:backpack",
+			tag: {
+				Inventory: [{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

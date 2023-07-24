@@ -1,0 +1,34 @@
+{
+	title: "教程书很重要",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "patchouli:magicpouch"
+		}
+	},
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"与任务相同，教程书也讲述了整合包的注意事项，请仔细阅读。"
+	],
+	tasks: [{
+		uid: "8b308ffe",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ea9738ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:magicpouch"
+			}
+		}
+	}]
+}

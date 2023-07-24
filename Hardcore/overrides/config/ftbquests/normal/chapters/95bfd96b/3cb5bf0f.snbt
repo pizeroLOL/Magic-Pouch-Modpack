@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"1a6cccfa"
+	],
+	tasks: [{
+		uid: "2930c612",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

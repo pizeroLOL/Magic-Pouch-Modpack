@@ -1,0 +1,44 @@
+{
+	title: "匠魂须知",
+	icon: "tconstruct:smeltery_controller",
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"匠魂的冶炼炉被禁用了，如果想要发展匠魂，你需要进行余烬的探索"
+	],
+	tasks: [{
+		uid: "28bc23a3",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "276f3402",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	},
+	{
+		uid: "ff15658d",
+		type: "item",
+		items: [{
+			item: "embersconstruct:stamptable"
+		}]
+	},
+	{
+		uid: "7ff33c44",
+		type: "item",
+		items: [{
+			item: "embersconstruct:stamp_raw"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f9a139f4",
+		type: "item",
+		item: "embersconstruct:stamp_raw",
+		count: 16
+	}]
+}

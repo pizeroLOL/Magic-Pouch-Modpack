@@ -1,0 +1,34 @@
+{
+	title: "致命陷阱",
+	x: -7.5d,
+	y: -2.0d,
+	dependencies: [
+		"6d5058d3"
+	],
+	tasks: [{
+		uid: "84ebec2d",
+		type: "item",
+		items: [{
+			item: "naturalpledge:disorient_trap"
+		},
+		{
+			item: "naturalpledge:inferno_trap"
+		},
+		{
+			item: "naturalpledge:root_trap"
+		},
+		{
+			item: "naturalpledge:launch_trap"
+		},
+		{
+			item: "naturalpledge:sand_trap"
+		},
+		{
+			item: "naturalpledge:signal_trap"
+		},
+		{
+			item: "naturalpledge:wrath_trap"
+		}],
+		ignore_nbt: 1b
+	}]
+}

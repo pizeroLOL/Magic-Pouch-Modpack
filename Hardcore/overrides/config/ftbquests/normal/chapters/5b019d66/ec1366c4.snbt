@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"c0655236"
+	],
+	tasks: [{
+		uid: "57cf59ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:vampire_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	dependencies: [
+		"ac53eca8"
+	],
+	tasks: [{
+		uid: "b7913595",
+		type: "item",
+		items: [{
+			item: "evilcraft:blood_infusion_core"
+		}]
+	},
+	{
+		uid: "6f205f50",
+		type: "item",
+		items: [{
+			item: "evilcraft:bowl_of_promises"
+		}]
+	}]
+}

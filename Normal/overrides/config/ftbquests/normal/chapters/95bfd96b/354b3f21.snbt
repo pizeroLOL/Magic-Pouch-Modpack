@@ -1,0 +1,37 @@
+{
+	title: "注魔祭坛",
+	icon: "thaumcraft:infusion_matrix",
+	x: 1.5d,
+	y: 3.0d,
+	description: "搭建注魔祭坛",
+	text: [
+		"在完成冶炼厂和蒸馏器的制作后，你已经有能力解锁有关注魔的研究了，按照魔导手册所说的，搭建注魔祭坛，并为接下来的发展做准备。",
+		"用世界盐完成注魔祭坛的结构后需要再用法师护手右击激活符文矩阵才可以开始注魔。"
+	],
+	dependencies: [
+		"d0e7f5a9"
+	],
+	tasks: [{
+		uid: "88c8b643",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "f9044674",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8a25c8ba",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}],
+		count: 3L
+	}]
+}

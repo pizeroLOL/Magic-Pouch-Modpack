@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	dependencies: [
+		"17d99a3b"
+	],
+	tasks: [{
+		uid: "60b0637e",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	},
+	{
+		uid: "dd12a955",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	},
+	{
+		uid: "c25dcd19",
+		type: "item",
+		items: [{
+			item: "naturesaura:bottle_two_the_rebottling"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "巫术学",
+	x: -3.5d,
+	y: -3.0d,
+	description: "步入巫术学的旅程",
+	text: [
+		"巫术学不像神秘学和星辉魔法那样的mod，需要你整一堆东西让你那面积本就十分可怜的小房子（也许是火柴盒或者山洞）里的空间更加狭隘。",
+		"他所需要的仅仅是一个奥术工作台，还有一把法杖，一些魔力水晶，和一张足够白的脸。",
+		"从某种意义上来说，他其实算是个冒险mod。",
+		"但是那又有什么关系呢，你是个巫师，学习魔法才是你的本分，管那么多干啥子。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "23ddf302",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "94c50444",
+		type: "item",
+		item: "ebwizardry:magic_crystal",
+		count: 5
+	}]
+}

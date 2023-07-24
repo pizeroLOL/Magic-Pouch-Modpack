@@ -1,0 +1,19 @@
+{
+	title: "embers初阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "embers:blend_caminite",
+		count: 16
+	},
+	{
+		item: "embers:mech_core"
+	},
+	{
+		item: "embers:ingot_lead",
+		count: 8
+	},
+	{
+		item: "embers:crystal_ember",
+		count: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "激烈战斗",
+	x: 3.5d,
+	y: 1.0d,
+	description: "空旷的祭坛上，一场大战一触即发",
+	text: [
+		"按照植物魔法手册的方式搭建盖亚仪式祭坛",
+		"向信标投喂一块泰拉钢锭",
+		"召唤盖亚守护者"
+	],
+	dependencies: [
+		"21764e74"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e5799960",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:terrasword"
+		},
+		entity: "botania:doppleganger",
+		value: 1L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "初次注魔",
+	x: 4.5d,
+	y: 3.0d,
+	description: "祝你好运",
+	text: [
+		"云霄指环是最建议第一个进行注魔的物品，只需要一种颜色的蜡烛即可维持其稳定性，所需要素和材料种类单一，易于获得，建议注魔初学者首先制作此物品。"
+	],
+	dependencies: [
+		"4cb6d4e3"
+	],
+	tasks: [{
+		uid: "419a3e49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:cloud_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "301b77c5",
+		type: "choice",
+		table: 7
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"2bfd0267"
+	],
+	tasks: [{
+		uid: "bd517fb1",
+		type: "item",
+		items: [{
+			item: "evilcraft:hardened_blood_shard"
+		}]
+	}]
+}

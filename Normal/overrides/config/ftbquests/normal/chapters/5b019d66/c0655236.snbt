@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b648da97"
+	],
+	tasks: [{
+		uid: "18a32702",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_diamond"
+		}]
+	}]
+}

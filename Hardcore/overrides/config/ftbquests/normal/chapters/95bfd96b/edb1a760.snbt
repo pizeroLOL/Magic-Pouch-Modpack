@@ -1,0 +1,21 @@
+{
+	title: "雷霆出击",
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"6d5058d3"
+	],
+	tasks: [{
+		uid: "405d8e67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:thunder_fist"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

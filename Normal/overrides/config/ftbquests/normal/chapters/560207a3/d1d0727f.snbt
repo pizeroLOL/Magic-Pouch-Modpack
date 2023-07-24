@@ -1,0 +1,29 @@
+{
+	title: "基础法术",
+	x: -6.5d,
+	y: -6.0d,
+	description: "得到一本法术书",
+	text: [
+		"法术书有很多种方式可以得到",
+		"比如探索地牢，和巫师交易等",
+		"当然最简单的还是用工作台合成一本",
+		"你可以用魔力水晶和书来合成魔力飞弹",
+		"一个最基础的法术"
+	],
+	dependencies: [
+		"7625ee50"
+	],
+	tasks: [{
+		uid: "f429106a",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f5f7aef0",
+		type: "item",
+		item: "ebwizardry:magic_crystal",
+		count: 20
+	}]
+}

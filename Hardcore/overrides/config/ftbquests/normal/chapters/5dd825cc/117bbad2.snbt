@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"09b5ebda"
+	],
+	tasks: [{
+		uid: "36ac6caf",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	},
+	{
+		uid: "eaeacdc2",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	}]
+}

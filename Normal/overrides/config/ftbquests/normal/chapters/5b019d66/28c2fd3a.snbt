@@ -1,0 +1,15 @@
+{
+	title: "智慧的结晶",
+	x: 5.0d,
+	y: -3.5d,
+	dependencies: [
+		"8d23ac39"
+	],
+	tasks: [{
+		uid: "b7965135",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 5"
+		}]
+	}]
+}

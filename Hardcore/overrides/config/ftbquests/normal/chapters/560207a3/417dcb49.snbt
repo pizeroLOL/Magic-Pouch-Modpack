@@ -1,0 +1,16 @@
+{
+	title: "异梦的指引",
+	x: -2.0d,
+	y: 1.5d,
+	description: "根据异梦的指引，合成世界盐",
+	dependencies: [
+		"fb08ad23"
+	],
+	tasks: [{
+		uid: "8c12b60f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

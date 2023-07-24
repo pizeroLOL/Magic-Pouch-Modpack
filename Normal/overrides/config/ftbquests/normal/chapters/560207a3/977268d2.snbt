@@ -1,0 +1,23 @@
+{
+	title: "古老的残骸",
+	x: -0.5d,
+	y: -3.0d,
+	description: "击败太古魔像，获取它们的核心",
+	text: [
+		"余烬是一个特效十分华丽的矮人风格的魔法（科技？）mod，且这个mod十分适合山顶洞人和呼吸新鲜空气就会死星人。",
+		"为啥这么说？还不是因为这个mod的操作全程离不开基岩层。",
+		"它拥有十分精致的建模和炫酷的特效，同时也是magicpouch匠魂的前置mod。",
+		"现在和那些庞大的，没有gui的机器打个招呼吧，玩家！"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "59c0cb03",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}]
+	}]
+}

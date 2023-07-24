@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 3.5d,
+	dependencies: [
+		"ebf3de0e"
+	],
+	tasks: [{
+		uid: "b1152b56",
+		type: "item",
+		items: [{
+			item: "wizardry:fairy_imbued_apple"
+		}]
+	}]
+}

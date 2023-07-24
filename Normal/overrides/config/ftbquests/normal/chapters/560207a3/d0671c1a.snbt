@@ -1,0 +1,21 @@
+{
+	title: "握紧你的魔杖",
+	x: -5.0d,
+	y: -4.5d,
+	description: "制作或想办法从哪里弄到一根魔杖",
+	dependencies: [
+		"b9d7844d"
+	],
+	tasks: [{
+		uid: "5e8097e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

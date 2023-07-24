@@ -1,0 +1,108 @@
+{
+	title: "法术构建第三步",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "wizardry:crafting_plate"
+	},
+	x: -2.5d,
+	y: 3.0d,
+	description: "搭建巫师艺术法术合成台，构建你的法术",
+	dependencies: [
+		"9c944ae4"
+	],
+	tasks: [{
+		uid: "88424fba",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_wood_log"
+		}],
+		count: 12L
+	},
+	{
+		uid: "4b63b43a",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_wood_pigmented_planks"
+		}],
+		count: 12L
+	},
+	{
+		uid: "d20a4bb3",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		count: 9L
+	},
+	{
+		uid: "f7316f75",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab 1 7"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b8816000",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_wood_stairs"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5de885fc",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_wood_planks"
+		}],
+		count: 4L
+	},
+	{
+		uid: "31d7b3c0",
+		type: "item",
+		items: [{
+			item: "wizardry:pearl_holder"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1799260f",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_stairs"
+		}],
+		count: 4L
+	},
+	{
+		uid: "3237b9a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:crafting_plate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a903c6c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					mana: 100.0d,
+					maxMana: 100.0d,
+					burnout: 0.0d,
+					max_burnout: 100.0d
+				}
+			},
+			id: "wizardry:orb",
+			Damage: 1s
+		}],
+		count: 4L
+	}]
+}

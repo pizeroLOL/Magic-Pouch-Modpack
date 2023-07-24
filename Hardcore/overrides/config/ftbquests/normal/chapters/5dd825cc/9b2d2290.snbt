@@ -1,0 +1,43 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"38541e81"
+	],
+	tasks: [{
+		uid: "85f07335",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5957d8f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83e8cd90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

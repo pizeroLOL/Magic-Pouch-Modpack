@@ -1,0 +1,15 @@
+{
+	title: "magic pouch第二阶段",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "你已经领悟了一些法术的要领了",
+	dependencies: [
+		"2dde60a4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "393337fd",
+		type: "checkmark"
+	}]
+}

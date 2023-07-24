@@ -1,0 +1,16 @@
+{
+	title: "智慧树下智慧果",
+	x: -3.0d,
+	y: 2.0d,
+	description: "砍伐一棵智慧树",
+	dependencies: [
+		"3070d24f"
+	],
+	tasks: [{
+		uid: "b63f209f",
+		type: "item",
+		items: [{
+			item: "wizardry:wisdom_wood_log"
+		}]
+	}]
+}

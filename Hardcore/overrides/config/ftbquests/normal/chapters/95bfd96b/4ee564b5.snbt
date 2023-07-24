@@ -1,0 +1,28 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	dependencies: [
+		"f2af347f"
+	],
+	tasks: [{
+		uid: "82a63efe",
+		type: "item",
+		items: [{
+			item: "evilcraft:piercing_vengeance_focus"
+		}]
+	},
+	{
+		uid: "c1c5f880",
+		type: "item",
+		items: [{
+			item: "evilcraft:vengeance_essence"
+		}]
+	},
+	{
+		uid: "0f414dbf",
+		type: "item",
+		items: [{
+			item: "evilcraft:vengeance_essence 1 1"
+		}]
+	}]
+}

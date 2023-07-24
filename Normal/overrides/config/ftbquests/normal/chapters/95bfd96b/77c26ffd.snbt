@@ -1,0 +1,27 @@
+{
+	title: "法术构建第一步",
+	x: -2.5d,
+	y: 0.0d,
+	description: "得到一个炫珠，什么品质的都可以",
+	dependencies: [
+		"be59ccae"
+	],
+	tasks: [{
+		uid: "57e53fa2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					mana: 0.0d,
+					maxMana: 300.0d,
+					burnout: 0.0d,
+					max_burnout: 300.0d
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:nacre_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

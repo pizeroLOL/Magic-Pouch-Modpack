@@ -1,0 +1,28 @@
+{
+	title: "建筑权杖",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "betterbuilderswands:wandunbreakable",
+		Damage: 12s
+	},
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"需要建造围墙时可以选择这个工具，",
+		"它可以批量大范围放置同种方块。"
+	],
+	tasks: [{
+		uid: "37899dc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

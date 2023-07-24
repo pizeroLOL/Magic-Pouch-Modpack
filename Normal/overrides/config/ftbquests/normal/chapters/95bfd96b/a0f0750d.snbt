@@ -1,0 +1,24 @@
+{
+	title: "树读百遍",
+	x: -7.5d,
+	y: -4.0d,
+	dependencies: [
+		"6d5058d3"
+	],
+	tasks: [{
+		uid: "757e2894",
+		type: "item",
+		items: [{
+			item: "naturalpledge:thunder_sapling"
+		},
+		{
+			item: "naturalpledge:circuit_sapling"
+		},
+		{
+			item: "naturalpledge:calico_sapling"
+		},
+		{
+			item: "naturalpledge:seal_sapling"
+		}]
+	}]
+}

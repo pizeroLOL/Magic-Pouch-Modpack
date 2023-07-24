@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	dependencies: [
+		"e0e44b8b"
+	],
+	tasks: [{
+		uid: "1501766e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmapdrawingtable"
+		}]
+	}]
+}

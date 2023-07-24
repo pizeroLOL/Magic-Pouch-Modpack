@@ -1,0 +1,21 @@
+{
+	title: "药不能停",
+	x: -5.5d,
+	y: 3.0d,
+	dependencies: [
+		"38ea3a2a"
+	],
+	tasks: [{
+		uid: "024d88eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:syringe",
+			Damage: 1s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

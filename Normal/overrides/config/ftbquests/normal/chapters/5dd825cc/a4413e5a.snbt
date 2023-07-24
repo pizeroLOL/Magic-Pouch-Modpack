@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"3b1ab339"
+	],
+	tasks: [{
+		uid: "b86494fc",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	},
+	{
+		uid: "9abaa2f3",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}]
+}

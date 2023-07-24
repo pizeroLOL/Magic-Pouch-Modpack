@@ -1,0 +1,13 @@
+{
+  "name" : "魔导手册获取",
+  "icon" : "thaumcraft:thaumonomicon",
+  "category" : "thaumcraft",
+  "sortnum" : 2,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "thaumcraft:thaumonomicon",
+      "text": "破坏魔力结晶，捡起掉落物，再睡一觉，获取制作它的方法！"
+    }
+  ]
+}

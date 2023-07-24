@@ -1,0 +1,20 @@
+{
+	title: "自动喂食",
+	x: -7.5d,
+	y: -3.0d,
+	dependencies: [
+		"6d5058d3"
+	],
+	tasks: [{
+		uid: "db64eafa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:foodbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

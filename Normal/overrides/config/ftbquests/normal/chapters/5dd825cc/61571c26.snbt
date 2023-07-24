@@ -1,0 +1,21 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"bee4f99a"
+	],
+	tasks: [{
+		uid: "537bbd93",
+		type: "item",
+		items: [{
+			item: "embers:ember_cluster"
+		}]
+	},
+	{
+		uid: "eb2d5aa8",
+		type: "item",
+		items: [{
+			item: "embers:wildfire_core"
+		}]
+	}]
+}

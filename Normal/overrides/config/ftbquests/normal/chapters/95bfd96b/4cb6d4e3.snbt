@@ -1,0 +1,52 @@
+{
+	title: "维持注魔祭坛稳定性",
+	x: 3.0d,
+	y: 3.0d,
+	description: "制作多彩油脂蜡烛来增强注魔祭坛稳定性",
+	text: [
+		"在神秘时代6中，一味堆白色蜡烛是不可行的。性价比最高的方法是利用不同颜色的蜡烛，同种颜色的蜡烛以符文矩阵中心对称摆放。"
+	],
+	dependencies: [
+		"354b3f21"
+	],
+	tasks: [{
+		uid: "1122c46e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_white"
+		}],
+		count: 12L
+	},
+	{
+		uid: "4de6055a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_yellow"
+		}],
+		count: 12L
+	},
+	{
+		uid: "64f20ffa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_red"
+		}],
+		count: 12L
+	},
+	{
+		uid: "2cc21774",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_orange"
+		}],
+		count: 12L
+	},
+	{
+		uid: "5326612e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_blue"
+		}],
+		count: 12L
+	}]
+}

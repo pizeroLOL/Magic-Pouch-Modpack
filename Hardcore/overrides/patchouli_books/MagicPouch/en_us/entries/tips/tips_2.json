@@ -1,0 +1,16 @@
+{
+  "name" : "为什么我的冶炼厂做不了？",
+  "icon" : "tconstruct:smeltery_controller",
+  "category" : "tips",
+  "sortnum" : 1,
+  "pages": [
+    {
+      "type" : "text",
+      "text" : "匠魂的工具已经被锁定了，使用余烬模组来制作匠魂的材料！如果你对余烬模组不够了解的话，击杀一只太古傀儡，然后用它的掉落物做一本书！"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "embers:codex"
+    }
+  ]
+}

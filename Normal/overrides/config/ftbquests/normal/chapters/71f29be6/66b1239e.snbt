@@ -1,0 +1,36 @@
+{
+	title: "建筑小帮手",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "buildinggadgets:buildingtool",
+		tag: {
+			blockstate: {
+				Name: "minecraft:air"
+			}
+		}
+	},
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"建筑小帮手可以放置一些复杂的建筑方块组合。在本整合包中建筑小帮手无限耐久，也无需充电。前往朦胧世界来获取铌矿。"
+	],
+	tasks: [{
+		uid: "60d41a11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

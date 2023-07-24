@@ -1,0 +1,47 @@
+{
+	title: "众神之护佑",
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"6dd45e5c"
+	],
+	tasks: [{
+		uid: "9904b832",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:priest_emblem"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:priest_emblem",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:priest_emblem",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:priest_emblem",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:priest_emblem",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

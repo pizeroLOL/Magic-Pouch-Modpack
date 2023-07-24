@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"a4413e5a"
+	],
+	tasks: [{
+		uid: "4f072110",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	},
+	{
+		uid: "09d77b6c",
+		type: "item",
+		items: [{
+			item: "embers:dust_ash"
+		}],
+		count: 16L
+	}]
+}

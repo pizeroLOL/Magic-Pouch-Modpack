@@ -1,0 +1,21 @@
+{
+	title: "这里都有些什么",
+	x: -5.0d,
+	y: -3.0d,
+	description: "制作一本巫术学的指导书",
+	dependencies: [
+		"215196cb"
+	],
+	tasks: [{
+		uid: "4f69ee9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_handbook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

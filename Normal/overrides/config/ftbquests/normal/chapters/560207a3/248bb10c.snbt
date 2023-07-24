@@ -1,0 +1,57 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"670bf895"
+	],
+	tasks: [{
+		uid: "8afacaae",
+		type: "item",
+		items: [{
+			id: "roots:mortar",
+			tag: {
+				WitcheryPriIncUsr: "123"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d3d76aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle",
+			tag: {
+				WitcheryPriIncUsr: "123"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	},
+	{
+		uid: "7f50334b",
+		type: "item",
+		items: [{
+			id: "roots:pyre",
+			tag: {
+				WitcheryPriIncUsr: "123"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41353b1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:stone_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

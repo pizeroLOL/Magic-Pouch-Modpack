@@ -1,0 +1,27 @@
+{
+	title: "元始的怒吼",
+	x: -6.5d,
+	y: 1.0d,
+	description: "当裂隙触碰裂隙...就会形成一团不稳定的能量团",
+	text: [
+		"将一个罐装裂隙扔进一条裂隙",
+		"就会产生一只元始精灵",
+		"击败它，获取奖励袋与元始尘埃"
+	],
+	dependencies: [
+		"28c2fd3a"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c63cc6a8",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "thaumicaugmentation:primal_wisp",
+		value: 1L
+	}]
+}

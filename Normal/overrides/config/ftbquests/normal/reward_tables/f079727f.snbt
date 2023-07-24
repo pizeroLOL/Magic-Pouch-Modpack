@@ -1,0 +1,23 @@
+{
+	title: "tconstruct奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "tinkersaddons:modifier_item 1 1"
+	},
+	{
+		item: "embers:stamp_flat_raw",
+		count: 8
+	},
+	{
+		item: {
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"46dcd6db"
+	],
+	tasks: [{
+		uid: "d5b81fbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "现在不能随便倒了",
+	x: 0.0d,
+	y: 1.5d,
+	description: "制作坩埚",
+	text: [
+		"现在坩埚不能随意排放了，因为排放会产生咒波，咒波量过大会产生咒波裂隙，吞噬其所接触到的方块，所以为了避免咒波逸散，请用石英碎片处理坩埚中多余的要素。"
+	],
+	dependencies: [
+		"e99a8ba5"
+	],
+	tasks: [{
+		uid: "e880262c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}]
+}

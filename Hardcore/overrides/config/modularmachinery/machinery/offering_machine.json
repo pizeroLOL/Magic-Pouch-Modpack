@@ -1,0 +1,225 @@
+{
+    "registryname": "offering_machine",
+    "localizedname": "Offering Machine",
+    "requires-blueprint": false,
+    "color": "ededed",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "naturalpledge:divine_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "casings_item_and_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "gugu-utils:sparkmanahatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "botania:elfglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "naturalpledge:storage@0"
+            ]
+        }
+    ]}

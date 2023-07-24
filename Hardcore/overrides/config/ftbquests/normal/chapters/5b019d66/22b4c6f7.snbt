@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 6.5d,
+	dependencies: [
+		"a778907b"
+	],
+	tasks: [{
+		uid: "3ff0516a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockchalice"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	description: "古板的石头",
+	text: [
+		"通过森流祈愿仪式，激活森林之石，以便给精灵工匠台充能。"
+	],
+	dependencies: [
+		"248bb10c"
+	],
+	tasks: [{
+		uid: "ef2ffc09",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}],
+		ignore_nbt: 1b
+	}]
+}

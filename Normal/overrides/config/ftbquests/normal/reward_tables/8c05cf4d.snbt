@@ -1,0 +1,14 @@
+{
+	title: "botania初阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:blacklotus",
+		count: 3
+	},
+	{
+		item: "botania_tweaks:compressed_tiny_potato_2"
+	},
+	{
+		item: "botania:manaresource 1 1"
+	}]
+}

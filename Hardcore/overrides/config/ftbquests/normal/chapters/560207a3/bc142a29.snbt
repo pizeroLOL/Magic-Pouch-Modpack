@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -7.0d,
+	dependencies: [
+		"e7999ea2"
+	],
+	tasks: [{
+		uid: "d1f846e9",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "de1f0a78",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}]
+}

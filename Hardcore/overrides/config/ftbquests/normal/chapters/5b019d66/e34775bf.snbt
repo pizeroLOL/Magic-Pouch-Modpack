@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"1163ce7c"
+	],
+	tasks: [{
+		uid: "ee359b72",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}]
+}

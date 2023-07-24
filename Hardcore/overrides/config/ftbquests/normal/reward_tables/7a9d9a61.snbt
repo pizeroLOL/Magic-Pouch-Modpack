@@ -1,0 +1,31 @@
+{
+	title: "botania二阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:manaresource 1 4"
+	},
+	{
+		item: "botania:blacklotus 1 1",
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:tornadorod",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "巫术二阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "witchery:redstone_soup"
+	},
+	{
+		item: "witchery:frogs_tongue_brew",
+		count: 3
+	},
+	{
+		item: "witchery:ritual_circle_glyph",
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:mutating_sprig",
+			Count: 1b
+		}
+	}]
+}

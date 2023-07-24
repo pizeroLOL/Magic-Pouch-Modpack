@@ -1,0 +1,16 @@
+{
+	title: "magic pouch三阶段",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "由生疏到熟练",
+	text: [
+		"能走到这里，想必你已经可以熟练使用各种魔法了，接下来看看这些。"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fb41dfaa",
+		type: "checkmark",
+		title: "熟练魔法"
+	}]
+}

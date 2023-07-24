@@ -1,0 +1,26 @@
+{
+	title: "外域探索之准备（其二）",
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"3dbd35cb"
+	],
+	tasks: [{
+		uid: "f461f067",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

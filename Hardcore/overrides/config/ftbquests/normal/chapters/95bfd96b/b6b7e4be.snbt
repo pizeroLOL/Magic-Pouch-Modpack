@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"6dd45e5c"
+	],
+	tasks: [{
+		uid: "2409fc42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:mortal_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

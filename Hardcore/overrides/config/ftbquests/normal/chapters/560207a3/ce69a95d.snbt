@@ -1,0 +1,24 @@
+{
+	title: "沙里淘金",
+	x: -1.0d,
+	y: -0.5d,
+	description: "挖掘海蓝宝石砂岩",
+	text: [
+		"星辉魔法和余烬在某些地方还是挺相似的，我是说，他们的特效都很华丽。",
+		"不过，星辉魔法更注重给玩家加buff，而余烬更注重装备。",
+		"相对于余烬，星辉魔法刚好相反，他要求玩家当空岛人……",
+		"毕竟，只有把祭坛放到120格的高空才能获取最多的星能。",
+		"开始观星吧！"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "8f5e0cb3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}]
+}

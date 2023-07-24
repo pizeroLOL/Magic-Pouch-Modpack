@@ -1,0 +1,21 @@
+{
+	title: "石书",
+	x: 1.0d,
+	y: -3.0d,
+	description: "制作古代法典",
+	dependencies: [
+		"977268d2"
+	],
+	tasks: [{
+		uid: "c601ca26",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:codex"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -7.0d,
+	dependencies: [
+		"bf97960e"
+	],
+	tasks: [{
+		uid: "caad6361",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

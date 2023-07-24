@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"6ec9b08b"
+	],
+	tasks: [{
+		uid: "699e5888",
+		type: "item",
+		items: [{
+			item: "embers:block_dawnstone"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ae8c5154",
+		type: "item",
+		items: [{
+			item: "aetherworks:forge_component"
+		}]
+	},
+	{
+		uid: "984d1473",
+		type: "item",
+		items: [{
+			item: "aetherworks:forge_component 1 5"
+		}]
+	}]
+}

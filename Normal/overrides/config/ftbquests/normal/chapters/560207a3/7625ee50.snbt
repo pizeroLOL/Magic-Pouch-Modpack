@@ -1,0 +1,16 @@
+{
+	title: "将法术导入魔杖",
+	x: -6.5d,
+	y: -4.5d,
+	description: "制作奥术工作台，将法术导入魔杖中",
+	dependencies: [
+		"d0671c1a"
+	],
+	tasks: [{
+		uid: "799fc157",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}]
+}

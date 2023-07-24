@@ -1,0 +1,39 @@
+{
+	title: "特殊的礼物",
+	x: -2.0d,
+	y: -5.0d,
+	description: "使用觉醒材料制作一些特殊的工具",
+	dependencies: [
+		"953f6fb7"
+	],
+	tasks: [{
+		uid: "753a8586",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:mjolnir"
+		},
+		{
+			item: "naturalpledge:seal_arrow"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:perdition_fist"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:fate_horn"
+		},
+		{
+			item: "naturalpledge:apple_immortality"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

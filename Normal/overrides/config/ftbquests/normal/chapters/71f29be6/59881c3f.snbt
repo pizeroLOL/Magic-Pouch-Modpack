@@ -1,0 +1,13 @@
+{
+	title: "死亡掉落也可以不那么可怕",
+	icon: "tombstone:decorative_grave_simple",
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"这个整合包安装有墓碑模组，死于非pvp情况下会在死后会安全的保存你的物品，所以开启死亡不掉落不再是必要的。"
+	],
+	tasks: [{
+		uid: "575d6418",
+		type: "checkmark"
+	}]
+}

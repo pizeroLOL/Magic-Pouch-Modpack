@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"5fe0efcb"
+	],
+	tasks: [{
+		uid: "ebe80e05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sanguine_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

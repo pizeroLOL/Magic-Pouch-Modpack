@@ -1,0 +1,184 @@
+{
+    "images":
+    {
+       
+        "edition":
+        {
+            "image" : "mainmenu:textures/tt2.png",
+            "posX" : -123,
+            "posY" : 15,
+            "width" : 246,
+            "height" : 81,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+			"hoverText" : "Welcome to Magic Pouch.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+			"hoverText" : "You can play with your friends, if you have one...",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+			"hoverText" : "Don't touch anything here!",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+			"hoverText" : "Make any changes you want.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 2,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+			"hoverText" : "See you next time.",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"hosting":
+        {
+            "text" : "play with us together!",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 9400063,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -100,
+            "posY" : 144,
+            "width" : 200,
+            "height" : 20,
+			"hoverText" : "Join us and play with us.",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tqouLRA2w76fQd2q1S6A9PN956XPUqfz&authKey=9EPWSEJh3WZ0lor8f5cRMGTXNkAM%2BVClZwU2llVynOp4Pmst7zqWSO0nkLx5ReW0&noverify=0&group_code=776471798"
+            }
+        }
+		
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" :  " "
+        },
+        
+        "panorama":
+        {
+            "images" : " ",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        },
+		
+		"background": {
+            "image": "",
+				"slideshow": {
+                "images": 
+				[
+					"mainmenu:textures/bg.png"
+				]
+				}
+			}
+    }
+}

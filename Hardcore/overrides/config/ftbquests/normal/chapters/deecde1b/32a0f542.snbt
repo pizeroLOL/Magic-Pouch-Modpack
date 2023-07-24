@@ -1,0 +1,25 @@
+{
+	title: "大而笨重",
+	x: -1.5d,
+	y: 1.0d,
+	description: "守卫屹立在空旷的密室中，似乎等待着谁将其唤醒",
+	text: [
+		"完成开眼仪式，邪术构装体就有可能苏醒！"
+	],
+	dependencies: [
+		"77f26c95"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "99104214",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_sword"
+		},
+		entity: "thaumicaugmentation:eldritch_golem",
+		value: 1L
+	}]
+}

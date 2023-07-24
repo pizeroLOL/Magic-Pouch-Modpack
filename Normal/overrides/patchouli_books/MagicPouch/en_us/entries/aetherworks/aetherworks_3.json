@@ -1,0 +1,36 @@
+{
+  "name" : "天华熔炼",
+  "icon" : "aetherworks:forge_component:1",
+  "category" : "aetherworks",
+  "sortnum" : 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "我们现在有了足够多的天华，那么可以开始进行天华加工了！ $(br) 首先，我们需要4个黎明石块，将其3X3平铺，然后再使用铁匠锤右击中间的黎明石块，可以得到一个天华熔炼工作台。"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "aetherworks:forge",
+      "text" : "之后，再在天华熔炼台的中心（就是你刚敲过那个方块上），放置一个天华熔炉核心，这样，一个天华熔炼台就算完工了。"
+    },
+    {
+      "type": "crafting",
+      "recipe" : "aetherworks:heater",
+      "text": "之后，你需要做的就是在天华工作台的四周放置任意数量（推荐为2）个天华加热器，并在其下方倒入岩浆，侧方供水，上方提供余烬能量，这样天华熔炼台就会产生热量了。"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "aetherworks:heat_dial",
+      "text": "对了，在正式加工之前，你需要控制天华熔炼台的温度，为什么呢？因为如果你不控制它的话，在它的温度超过3000时，就会产生一个非常强烈的爆炸，相当于在熔炉核心的中间位置点燃一个TNT！"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "aetherworks:cooler",
+      "recipe2": "aetherworks:heat_vent"
+    },
+    {
+      "type" : "text",
+      "text" : "这里推荐使用散热口进行散热，因为散热器不但要不停的在其下方放置冰块，还需要提供能量，这样一来得不偿失，所以推荐使用散热口进行散热。$(br)每个散热口散热的速度等于一个加热器的1/2，也就是说，只要你放置加热器数量X2个散热口的话，就能保持温度恒定不变，这可多是一件美事阿。"
+    }
+  ]
+}

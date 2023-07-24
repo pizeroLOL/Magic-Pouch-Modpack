@@ -1,0 +1,20 @@
+{
+	title: "记录岁月",
+	x: -6.5d,
+	y: -4.0d,
+	dependencies: [
+		"6d5058d3"
+	],
+	tasks: [{
+		uid: "7ac061d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturalpledge:xp_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

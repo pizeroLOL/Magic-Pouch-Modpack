@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"bdbb4138"
+	],
+	tasks: [{
+		uid: "4e800e2a",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 2"
+		}],
+		count: 8L
+	}]
+}

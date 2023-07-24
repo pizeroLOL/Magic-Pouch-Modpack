@@ -1,0 +1,15 @@
+{
+	title: "捉迷藏",
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"4f205a7d"
+	],
+	tasks: [{
+		uid: "04c3d97a",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:fracture_locator"
+		}]
+	}]
+}

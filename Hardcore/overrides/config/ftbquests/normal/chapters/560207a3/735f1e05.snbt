@@ -1,0 +1,51 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	text: [
+		"与以往不同，这一次，你需要把制作出来的咒术尘通过注造器注入森之古术。",
+		"然后手持守门者之杖，按k键打开法术栏选择法术。"
+	],
+	dependencies: [
+		"f11d0d43"
+	],
+	tasks: [{
+		uid: "aa6830ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7036040948853266329L,
+					AS_Amulet_HolderMost: 8499441996688931809L
+				}
+			},
+			id: "roots:staff",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb80c5fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:component_pouch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "33d6c761",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:gramary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

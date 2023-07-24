@@ -1,0 +1,19 @@
+{
+	title: "腐败的卷轴",
+	x: 5.0d,
+	y: -2.0d,
+	dependencies: [
+		"77f26c95"
+	],
+	tasks: [{
+		uid: "b1aecf09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:research_notes"
+		}],
+		ignore_nbt: 1b
+	}]
+}

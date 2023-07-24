@@ -1,0 +1,70 @@
+{
+	x: 6.0d,
+	y: 0.5d,
+	dependencies: [
+		"788deb96"
+	],
+	tasks: [{
+		uid: "6fefc32c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcade40a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7036040948853266329L,
+					AS_Amulet_HolderMost: 8499441996688931809L
+				}
+			},
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04c0e5af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff056116",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "真.植物魔法",
+	x: -6.5d,
+	y: -0.5d,
+	description: "植魔你学学人家（",
+	text: [
+		"与植物魔法想比，根源魔法无论是在机制还是材质上，都更有魔法的气息。",
+		"不过，你也可以看出来，根源魔法的性质似乎更像是德鲁伊而不是魔法……",
+		"也许我们可以叫他种田魔法？",
+		"种田就对了！"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "7cf82afe",
+		type: "item",
+		items: [{
+			item: "roots:roots_guide"
+		}]
+	}]
+}

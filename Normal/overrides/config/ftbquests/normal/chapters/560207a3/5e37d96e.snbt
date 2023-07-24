@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	dependencies: [
+		"09d32174"
+	],
+	tasks: [{
+		uid: "7c9197b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ember_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

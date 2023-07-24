@@ -1,0 +1,24 @@
+{
+	title: "thaumcraft二阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:amulet_vis"
+		}
+	},
+	{
+		item: "thaumcraft:stone_arcane",
+		count: 32
+	},
+	{
+		item: "thaumcraft:nitor_yellow",
+		count: 3
+	},
+	{
+		item: "thaumcraft:curio 1 4",
+		count: 3
+	}]
+}

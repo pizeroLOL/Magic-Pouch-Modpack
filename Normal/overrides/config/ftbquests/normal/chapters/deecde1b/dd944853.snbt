@@ -1,0 +1,18 @@
+{
+	title: "恶意 x 64",
+	x: -4.0d,
+	y: -1.0d,
+	description: "在某座戒备森严的要塞中，古代的恐怖生物正在等待着冒险者的前往",
+	tasks: [{
+		uid: "b672332c",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:shockwave_sword"
+		},
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}]
+}

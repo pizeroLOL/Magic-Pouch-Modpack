@@ -1,0 +1,21 @@
+{
+  "name" : "连锁挖矿？",
+  "icon" : "minecraft:iron_ore",
+  "category" : "tips",
+  "sortnum" : 2,
+  "pages" : [
+    {
+      "type" : "text",
+      "text" : "你需要连锁附魔来获取这个功能，新手奖励会送你一把连锁挖矿的铁镐，如果想获得更多，请按照这个配方来制作！"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "ct_shaped-159830552",
+      "recipe2" : "ct_shaped1969596857"
+    },
+    {
+      "type": "text",
+      "text": "什么？你不喜欢连锁挖矿的石镐和铁镐？那就用高级附魔台为你心仪的工具附上你想要的附魔，发展神秘时代来制作它！"
+    }
+ ]
+}

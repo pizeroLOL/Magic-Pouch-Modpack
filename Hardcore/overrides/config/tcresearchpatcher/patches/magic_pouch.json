@@ -1,0 +1,12 @@
+[
+	{
+        "key": "WARDEDJARS",
+        "ops": [
+            {
+				"op": "replace",
+				"path": "parents",
+                "value": ["ALUMENTUM"]
+			}
+        ]
+	}
+]

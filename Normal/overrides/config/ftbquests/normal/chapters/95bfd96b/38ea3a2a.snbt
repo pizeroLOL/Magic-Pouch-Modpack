@@ -1,0 +1,32 @@
+{
+	title: "施法准备",
+	x: -4.0d,
+	y: 3.0d,
+	dependencies: [
+		"a33aa8b3"
+	],
+	tasks: [{
+		uid: "53d815be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:halo_fake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab5b58e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:cape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

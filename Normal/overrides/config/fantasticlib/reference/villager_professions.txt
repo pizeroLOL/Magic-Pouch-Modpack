@@ -1,0 +1,15 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+roots:wild_mage
+evilcraft:werewolf_villager
+primitivemobs:miner
+primitivemobs:merchant
+primitivemobs:fakemerchant
+primitivemobs:sheepman_scavenger
+primitivemobs:sheepman_alchemist
+primitivemobs:sheepman_thief
+mystcraft:archivist

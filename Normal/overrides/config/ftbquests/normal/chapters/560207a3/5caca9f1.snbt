@@ -1,0 +1,23 @@
+{
+	title: "制杖！",
+	x: -4.0d,
+	y: 2.0d,
+	description: "制作一柄法杖（没有骂你的意思）",
+	text: [
+		""
+	],
+	dependencies: [
+		"fc7c9abf"
+	],
+	tasks: [{
+		uid: "142554ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:staff"
+		}],
+		ignore_nbt: 1b
+	}]
+}

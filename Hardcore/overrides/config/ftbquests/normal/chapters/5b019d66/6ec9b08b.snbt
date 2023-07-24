@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"c58c8f4f"
+	],
+	tasks: [{
+		uid: "6d4d973f",
+		type: "item",
+		items: [{
+			item: "aetherworks:prism"
+		}]
+	},
+	{
+		uid: "2c610a58",
+		type: "item",
+		items: [{
+			item: "aetherworks:prism_support"
+		}],
+		count: 3L
+	},
+	{
+		uid: "fcd863dc",
+		type: "item",
+		items: [{
+			item: "embers:block_tank"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "点亮精灵传送门",
+	icon: "botania:alfheimportal",
+	x: 0.0d,
+	y: -2.0d,
+	description: "试试往里面扔点面包？",
+	text: [
+		"搭建好精灵传送门，你便可以与来自艾尔夫海姆的精灵们换取你所需要的东西了。",
+		"比如一些来自精灵的土特产。",
+		"emmm听说精灵那边种不了小麦，因此没有面包吃。",
+		"给他们点面包他们应该会很高兴吧！"
+	],
+	dependencies: [
+		"e7c28e1c"
+	],
+	tasks: [{
+		uid: "2337655a",
+		type: "interaction",
+		title: "用森林法杖右键精灵门核心以激活传送门",
+		icon: "botania:alfheimportal",
+		match_type: "block_id",
+		match: "botania:alfheimportal"
+	}]
+}

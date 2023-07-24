@@ -1,0 +1,47 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"8f0d285e"
+	],
+	tasks: [{
+		uid: "3b24a10a",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	},
+	{
+		uid: "d873b247",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}]
+	},
+	{
+		uid: "fdaf91b5",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}]
+	},
+	{
+		uid: "e4c46650",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.dream: 1b,
+				knowledge.forbidden: 1b,
+				knowledge.relic: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

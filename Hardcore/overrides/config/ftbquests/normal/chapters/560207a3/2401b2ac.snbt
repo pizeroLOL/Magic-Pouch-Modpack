@@ -1,0 +1,15 @@
+{
+	x: -9.5d,
+	y: 1.0d,
+	dependencies: [
+		"67161cd2"
+	],
+	tasks: [{
+		uid: "d50da6e0",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

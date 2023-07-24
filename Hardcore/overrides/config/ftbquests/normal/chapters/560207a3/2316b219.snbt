@@ -1,0 +1,20 @@
+{
+	title: "魔 导-手 册",
+	x: -2.0d,
+	y: 3.0d,
+	description: "把世界盐撒到书架上，开启神秘之旅",
+	dependencies: [
+		"417dcb49"
+	],
+	tasks: [{
+		uid: "63d34b0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

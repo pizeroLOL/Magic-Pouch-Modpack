@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	dependencies: [
+		"9ac72937"
+	],
+	tasks: [{
+		uid: "3d1f111b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}]
+}

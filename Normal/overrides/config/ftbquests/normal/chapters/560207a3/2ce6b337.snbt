@@ -1,0 +1,22 @@
+{
+	title: "每个生物心中的恶念",
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"击败被原始投网投中带有白色粒子效果的生物来获取它"
+	],
+	dependencies: [
+		"7fcc52ee"
+	],
+	tasks: [{
+		uid: "f7a46ad2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

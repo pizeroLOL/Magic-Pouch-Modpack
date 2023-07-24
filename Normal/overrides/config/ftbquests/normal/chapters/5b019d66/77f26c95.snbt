@@ -1,0 +1,55 @@
+{
+	title: "八门金锁",
+	x: 3.5d,
+	y: -2.0d,
+	dependencies: [
+		"b7b853cd"
+	],
+	tasks: [{
+		uid: "5cb236e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:eldritch_lock_key"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23e89e15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:eldritch_lock_key",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cd01f3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:eldritch_lock_key",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2021735b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:eldritch_lock_key",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

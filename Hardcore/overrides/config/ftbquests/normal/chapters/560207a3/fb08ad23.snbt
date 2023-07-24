@@ -1,0 +1,88 @@
+{
+	title: "魔力结晶",
+	x: -2.0d,
+	y: 0.0d,
+	description: "收集6色魔力水晶",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "7d80b1f3",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "9669ffe1",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "f14be103",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "4822975a",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "cd3ec158",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "229e013d",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	}]
+}

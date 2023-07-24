@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	dependencies: [
+		"0770ed35"
+	],
+	tasks: [{
+		uid: "54a4acf3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:syringe",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

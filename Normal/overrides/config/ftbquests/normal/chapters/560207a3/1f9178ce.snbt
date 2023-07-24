@@ -1,0 +1,37 @@
+{
+	title: "血魔法2.0",
+	x: -0.5d,
+	y: -2.0d,
+	description: "血科技（",
+	text: [
+		"邪恶工艺，一个和植魔同类型的mod：披着魔法皮的科技mod。",
+		"与血魔法类似，都是与血液相关的mod。",
+		"在你给一个可怜的动物像皇后给白雪公主喂毒苹果一样喂黑苹果并将其毒死之后，",
+		"在他留下的灵魂之门上扔一本书。",
+		"你就可以开始这个mod的发展流程了，",
+		"兄弟们加油冲冲冲！（请认准官方正版）"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "a823a8fd",
+		type: "item",
+		items: [{
+			item: "evilcraft:darkened_apple"
+		}]
+	},
+	{
+		uid: "b8d37751",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "evilcraft:origins_of_darkness"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

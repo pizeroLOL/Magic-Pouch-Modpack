@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	dependencies: [
+		"ebf3de0e"
+	],
+	tasks: [{
+		uid: "b2713c80",
+		type: "item",
+		items: [{
+			item: "wizardry:sky_dust"
+		}]
+	},
+	{
+		uid: "542800cc",
+		type: "item",
+		items: [{
+			item: "wizardry:devil_dust"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"452a204f"
+	],
+	tasks: [{
+		uid: "b0c3be8d",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	},
+	{
+		uid: "3c305a42",
+		type: "item",
+		items: [{
+			item: "naturesaura:calling_spirit"
+		}]
+	},
+	{
+		uid: "184b781c",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}]
+}

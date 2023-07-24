@@ -1,0 +1,45 @@
+{
+	title: "as初阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	},
+	{
+		item: "astralsorcery:blockmarble",
+		count: 64
+	},
+	{
+		item: "astralsorcery:blockcustomsandore",
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 1000
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "闪烁的星空",
+	x: 2.0d,
+	y: 0.0d,
+	description: "来自天空的精华",
+	text: [
+		"如你所见，以太坊（天华之作）是余烬的一个附属，为余烬添加了许多独特的器械，他们有的伤害高，有的能增产矿物，还有很多功能。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bee4f99a"
+	],
+	tasks: [{
+		uid: "f4273ec3",
+		type: "observation",
+		title: "找到一点天华矿",
+		icon: "aetherworks:aether_ore",
+		match_type: "block_id",
+		match: "aetherworks:aether_ore",
+		timer: 0L
+	},
+	{
+		uid: "44b59dfe",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource"
+		}],
+		count: 16L
+	}]
+}

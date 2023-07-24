@@ -1,0 +1,29 @@
+{
+	title: "植物科技",
+	x: -1.5d,
+	y: -4.0d,
+	description: "开启植物魔法（科技）之旅",
+	text: [
+		"众所周知，植物魔法被誉为披着魔法皮的科技mod。",
+		"为啥这么说呢，你把它的魔力理解成电，产能花理解成发电机，功能花理解成用电器，魔力池理解成电池……",
+		"你就会明白大家为啥这么说了。",
+		"不过，他至少也算是披了一层魔法的皮，不是吗？"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "21eca34d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

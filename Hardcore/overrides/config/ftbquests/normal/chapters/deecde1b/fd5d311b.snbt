@@ -1,0 +1,25 @@
+{
+	title: "越狱兔",
+	x: -4.0d,
+	y: 1.0d,
+	description: "祭坛的那侧，有什东西...钻出来了！",
+	text: [
+		"完成开眼仪式，邪术典狱官就有几率从中冒出！"
+	],
+	dependencies: [
+		"77f26c95"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4a9aff83",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_sword"
+		},
+		entity: "thaumicaugmentation:eldritch_warden",
+		value: 1L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -5.5d,
+	dependencies: [
+		"a6f97d7b"
+	],
+	tasks: [{
+		uid: "4c8abe54",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}]
+}

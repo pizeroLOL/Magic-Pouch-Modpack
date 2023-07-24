@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"70cfb43f"
+	],
+	tasks: [{
+		uid: "f9832b83",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_power_gem"
+		}]
+	},
+	{
+		uid: "f55269a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "evilcraft:promise"
+		}],
+		ignore_nbt: 1b
+	}]
+}

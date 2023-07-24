@@ -1,0 +1,13 @@
+{
+	title: "虚域之旅",
+	x: 3.5d,
+	y: -3.5d,
+	dependencies: [
+		"4f205a7d"
+	],
+	tasks: [{
+		uid: "9aecde58",
+		type: "dimension",
+		dim: 14676
+	}]
+}

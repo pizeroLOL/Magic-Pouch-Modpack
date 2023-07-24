@@ -1,0 +1,24 @@
+{
+	title: "愿星星指引迷途的旅人",
+	x: -1.0d,
+	y: 0.5d,
+	description: "获得星芒宝典，探寻星空中的魔力",
+	text: [
+		""
+	],
+	dependencies: [
+		"ce69a95d"
+	],
+	tasks: [{
+		uid: "e44b1729",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,58 @@
+{
+  "name" : "天华收集装置",
+  "icon" : "aetherworks:moonlight_amplifier",
+  "category" : "aetherworks",
+  "sortnum" : 1,
+  "pages": [
+    {
+      "type" : "text",
+      "text" : "制作好了天华棱镜之后，你需要制作4个月光扩大器和天华透镜聚焦矩阵，来搭建天华收集器多方块结构，它在夜间会自动收集月光并产生粗制天华液体。"
+    },
+    {
+      "type" : "text",
+      "text" : "搭建这个多方块结构，需要4个月光扩大器，4个天华透镜聚焦矩阵，12个古代砖块，8个古代镶边砖块，1个天华棱镜，和储液罐，2个天华棱镜框架来完成这一多方块结构的搭建。"
+    },
+    {
+      "type" : "text",
+      "text" : "得到了天华碎片，首先要做的是实现天华自由，第一步就是制作天华透镜。它是一种基础材料，用于合成更高级的物品。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "aetherworks:aether_prism_controller_matrix",
+      "recipe2": "aetherworks:moonlight_amplifier"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "aetherworks:prism_support",
+      "recipe2" : "aetherworks:prism"
+    },
+    {
+      "type" : "multiblock",
+      "multiblock": {
+      "pattern": [
+        [ "   A   ", "       ", "       ", "L  C  R", "       ", "       ", "   H   " ],
+        [ "   D   ", " P   P ", "       ", "D  T  D", "       ", " P   P ", "   D   " ],
+        [ "   B   ", " D   D ", "       ", "B  T  B", "       ", " D   D ", "   B   " ],
+        [ "   B   ", " B   B ", "   0   ", "B  F  B", "       ", " B   B ", "   B   " ]
+      ],
+      "mapping": {
+        "B": "embers:archaic_bricks",
+        "D": "embers:archaic_edge",
+        "A": "aetherworks:moonlight_amplifier[facing=north]",
+        "P": "aetherworks:aether_prism_controller_matrix",
+        "C": "aetherworks:prism",
+        "T": "aetherworks:prism_support",
+        "F": "embers:block_tank",
+        "L": "aetherworks:moonlight_amplifier[facing=west]",
+        "R": "aetherworks:moonlight_amplifier[facing=east]",
+        "H": "aetherworks:moonlight_amplifier[facing=south]"
+      }
+      },
+      "text": "只能在露天且有月光的时候工作，而且只会产生粗制天华。"
+      },
+    {
+      "type" : "text",
+      "text" : "在月光收集器里制作出的粗制天华需要在混合离心机里与琥珀金结合进行进一步加工，这样就能得到纯净的天华了。$(br)具体配方详见JEI。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+	title: "陶瓷瓮",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mist:urn"
+	},
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"一个小的潜影盒，内部可以最多容纳9种物品，其中每个格子最多可堆叠物品16个，shift+右键可以放下，放下后再打破不会掉落其中的物品。",
+		"可以手动制作，也可以在朦胧世界找到印有特殊花纹的变种。"
+	],
+	tasks: [{
+		uid: "238b8b1b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mist:urn"
+		}],
+		ignore_nbt: 1b
+	}]
+}

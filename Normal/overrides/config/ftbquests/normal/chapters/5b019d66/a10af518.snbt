@@ -1,0 +1,28 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	dependencies: [
+		"6221a5d3"
+	],
+	tasks: [{
+		uid: "dcbbb97c",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 4"
+		}]
+	},
+	{
+		uid: "6c1b022b",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 5"
+		}]
+	},
+	{
+		uid: "a8b7ba95",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 3"
+		}]
+	}]
+}

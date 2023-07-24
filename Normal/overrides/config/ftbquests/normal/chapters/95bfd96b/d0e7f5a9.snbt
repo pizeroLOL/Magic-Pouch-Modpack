@@ -1,0 +1,27 @@
+{
+	title: "物品的本质",
+	x: 0.0d,
+	y: 3.0d,
+	description: "制作源质冶炼厂",
+	text: [
+		"源质冶炼厂可以将物品分解成其所对应的要素，需要搭配蒸馏器使用，将蒸馏器放在源质冶炼厂上面导出内部的源质，用罐子或安瓿右击蒸馏器来去除储存在蒸馏器里面的源质。",
+		"另外，源质冶炼厂在工作时也会产生咒波，这一点目前不可避免，所以为了防止裂隙在你的基地附近产生，把冶炼厂挪到距离基地更远的地方去工作吧。"
+	],
+	dependencies: [
+		"c12711cb"
+	],
+	tasks: [{
+		uid: "6f93570c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "f8e7dfb8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}]
+}

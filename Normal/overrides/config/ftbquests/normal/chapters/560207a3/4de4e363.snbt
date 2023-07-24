@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	text: [
+		"制作环境之眼以窥探灵气的多少。",
+		"制作荒古树苗以补充灵气。"
+	],
+	dependencies: [
+		"238f9732"
+	],
+	tasks: [{
+		uid: "622d2db9",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_sapling"
+		}]
+	},
+	{
+		uid: "c5665d54",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturesaura:eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

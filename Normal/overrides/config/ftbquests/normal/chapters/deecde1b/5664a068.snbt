@@ -1,0 +1,18 @@
+{
+	title: "我喜欢...宝藏...和它的...味道...",
+	x: -6.5d,
+	y: -1.0d,
+	description: "令人作呕的泥沼下，某只怪物正在偷窥着地表的宝藏...",
+	tasks: [{
+		uid: "7252b16a",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:valonite_sword"
+		},
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}]
+}

@@ -1,0 +1,213 @@
+{
+	version: 9,
+	default_reward_team: false,
+	default_consume_items: false,
+	default_autoclaim_rewards: "disabled",
+	default_quest_shape: "circle",
+	default_quest_disable_jei: false,
+	emergency_items: [{
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "akashictome:tome",
+		tag: {
+			"akashictome:is_morphing": 1b,
+			"akashictome:data": {
+				tconstruct: {
+					id: "tconstruct:book",
+					Count: 1b,
+					tag: {
+						"akashictome:definedMod": "tconstruct",
+						Damage: 0s
+					}
+				},
+				astralsorcery: {
+					id: "astralsorcery:itemjournal",
+					Count: 1b,
+					tag: {
+						"akashictome:definedMod": "astralsorcery"
+					},
+					Damage: 0s
+				},
+				conarm: {
+					id: "conarm:book",
+					Count: 1b,
+					tag: {
+						"akashictome:definedMod": "conarm"
+					},
+					Damage: 0s
+				},
+				ftbquests: {
+					id: "ftbquests:book",
+					Count: 1b,
+					tag: {
+						"akashictome:definedMod": "ftbquests"
+					},
+					Damage: 0s
+				},
+				wizardry: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "wizardry:book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "wizardry"
+					},
+					Damage: 0s
+				},
+				naturesaura: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -5988991087112186863L,
+							AS_Amulet_HolderMost: 8244528669670787153L
+						}
+					},
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"akashictome:displayName": "Book of Natural Aura",
+						"akashictome:definedMod": "naturesaura",
+						"akashictome:is_morphing": 1b,
+						display: {
+							Name: "§rAkashic Tome (§aBook of Natural Aura§r)"
+						},
+						"patchouli:book": "naturesaura:book"
+					},
+					Damage: 0s
+				},
+				roots: {
+					id: "roots:roots_guide",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "roots"
+					},
+					Damage: 0s
+				},
+				embers: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "embers:codex",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "embers"
+					},
+					Damage: 0s
+				},
+				ancientspellcraft: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "ancientspellcraft",
+						"patchouli:book": "ancientspellcraft:manual"
+					},
+					Damage: 0s
+				},
+				ebwizardry: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -5988991087112186863L,
+							AS_Amulet_HolderMost: 8244528669670787153L
+						}
+					},
+					id: "ebwizardry:wizard_handbook",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "ebwizardry"
+					},
+					Damage: 0s
+				},
+				botania: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "botania:lexicon",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "botania"
+					},
+					Damage: 0s
+				},
+				mysticalworld: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "mysticalworld",
+						"patchouli:book": "mysticalworld:world_guide"
+					},
+					Damage: 0s
+				},
+				bloodmagic: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "guideapi:bloodmagic-guide",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "bloodmagic"
+					},
+					Damage: 0s
+				},
+				twilightforest: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "twilightforest",
+						"patchouli:book": "twilightforest:guide"
+					},
+					Damage: 0s
+				},
+				patchouli: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {
+							AS_Amulet_HolderLeast: -5988991087112186863L,
+							AS_Amulet_HolderMost: 8244528669670787153L
+						}
+					},
+					id: "patchouli:guide_book",
+					Count: 1,
+					tag: {
+						"akashictome:displayName": "Magic Pouch",
+						"akashictome:definedMod": "patchouli",
+						"akashictome:is_morphing": 1b,
+						display: {
+							Name: "§rAkashic Tome (§aMagic Pouch§r)"
+						},
+						"patchouli:book": "patchouli:magicpouch"
+					},
+					Damage: 0s
+				},
+				bloodarsenal1: {
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					id: "guideapi:bloodarsenal-guide",
+					Count: 1,
+					tag: {
+						"akashictome:definedMod": "bloodarsenal1"
+					},
+					Damage: 0s
+				}
+			}
+		}
+	}],
+	emergency_items_cooldown: "5m",
+	drop_loot_crates: false,
+	loot_crate_no_drop: {
+		passive: 4000,
+		monster: 600,
+		boss: 0
+	},
+	disable_gui: false,
+	grid_scale: 0.5d
+}

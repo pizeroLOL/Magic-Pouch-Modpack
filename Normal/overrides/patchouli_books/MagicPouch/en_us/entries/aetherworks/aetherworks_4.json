@@ -1,0 +1,28 @@
+{
+  "name" : "天华加工熔炼",
+  "icon" : "aetherworks:forge_component:5",
+  "category" : "aetherworks",
+  "sortnum" : 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "接下来，到了最后一步，也是最关键的一步，就是锻造天华。 $(br)首先，我们需要制作一个天华熔炉金属成型台，将其放到天华熔炼台上，并为天华熔炼台供能，再将一个储液罐贴着熔炼台的侧面，并将其灌入天华，这样，天华就会导入到熔炼台上面的台子中去了。$(br)我们要用这个来制作天华锭，可以在JEI上查询天华锭的做法，之后，制作天华熔炼砧。"
+    },
+    {
+      "type" : "crafting",
+      "recipe" : "aetherworks:metal_former",
+      "recipe2" : "aetherworks:anvil"
+    },
+    {
+      "type": "text",
+      "text": "接下来时锻造的注意事项，将粗制工具放在锻造台上，当温度足够，熔炼砧上面会出现一个感叹号，要用铁匠锤及时右键敲击，若未即使敲击或在感叹号为红色时敲击，则会出现铁砧损坏的声音，意味着错误敲击，错误敲击有概率使原料消失，所以，必须要保证充足的灰烬能量供给以及温度事宜，不可因为其他事情分心导致敲击失败。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "patchouli:entries/aetherworks/anvil.png"
+      ],
+      "text": "叹号如图所示，当这个叹号变为绿色时，应及时敲打。"
+    }
+  ]
+}

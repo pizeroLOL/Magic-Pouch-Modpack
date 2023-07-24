@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"d0e7f5a9"
+	],
+	tasks: [{
+		uid: "d31846a4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_aux"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f75beb9e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}]
+}

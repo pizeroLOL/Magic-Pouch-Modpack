@@ -1,0 +1,31 @@
+{
+	title: "真.植物魔法2.0",
+	x: 2.5d,
+	y: -0.5d,
+	description: "实际上是无休止的套娃",
+	text: [
+		"欢迎来到自然……啊呸，套娃灵气的受苦之旅。",
+		"呃，是的，自然灵气的本质就是无休止的套娃。",
+		"而他自身……emmm，好吧，就是这么一个套娃mod都比植魔有魔法气息。",
+		"植魔你学学人家（"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "b39eb100",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"3b1ab339"
+	],
+	tasks: [{
+		uid: "35a68e39",
+		type: "item",
+		items: [{
+			item: "embersconstruct:stamptable"
+		}]
+	},
+	{
+		uid: "85ff89e7",
+		type: "item",
+		items: [{
+			item: "embers:stamp_flat_raw"
+		}],
+		count: 10L
+	}]
+}

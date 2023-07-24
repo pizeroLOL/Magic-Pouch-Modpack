@@ -1,0 +1,27 @@
+{
+	title: "珍贵的赏赐",
+	x: -5.5d,
+	y: -2.0d,
+	dependencies: [
+		"7b678866"
+	],
+	tasks: [{
+		uid: "20f66820",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource"
+		},
+		{
+			item: "naturalpledge:resource 1 4"
+		},
+		{
+			item: "naturalpledge:resource 1 7"
+		},
+		{
+			item: "naturalpledge:iris_dye"
+		},
+		{
+			item: "naturalpledge:resource 1 2"
+		}]
+	}]
+}

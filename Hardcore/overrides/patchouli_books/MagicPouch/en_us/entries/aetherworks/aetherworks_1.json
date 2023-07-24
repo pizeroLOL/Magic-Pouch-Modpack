@@ -1,0 +1,25 @@
+{
+  "name" : "起步",
+  "icon" : "aetherworks:item_resource",
+  "category" : "aetherworks",
+  "sortnum" : 0,
+  "pages": [
+    {
+      "type" : "text",
+      "text" : "天华之作可以制作出余烬系列中最强力的装备和武器，但是缺乏教程指引，以致于很多新人不会开始，这里将着重描述天华之作的基础玩法。"
+    },
+    {
+      "type" : "text",
+      "text" : "想要开启天华之作之旅，你需要发展余烬，以及挖掘天华矿石，制作一本古代典籍以了解余烬的更多内容，而天华矿石可以在高山地形发现，使用挖掘等级为黑曜石等级的镐即可挖掘，挖掘会掉落天华碎片。$(br)值得注意的是，天华矿石在深夜会发出明亮的光，这也使得它在晚上更容易寻找。"
+    },
+    {
+      "type" : "text",
+      "text" : "得到了天华碎片，首先要做的是实现天华自由，第一步就是制作天华透镜。它是一种基础材料，用于合成更高级的物品。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "aetherworks:aetherium_lens",
+      "recipe2" : "aetherworks:aetherium_lens_alt"
+    }
+  ]
+}

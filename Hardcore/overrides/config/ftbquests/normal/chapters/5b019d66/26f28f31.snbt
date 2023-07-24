@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	dependencies: [
+		"a82a2a27"
+	],
+	tasks: [{
+		uid: "0b1dd4ad",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:altare_aenigmatica"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "外域探索之准备",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"e705bfd8"
+	],
+	tasks: [{
+		uid: "0802ce32",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 3"
+		}]
+	}]
+}

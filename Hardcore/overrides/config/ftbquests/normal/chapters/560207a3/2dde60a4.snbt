@@ -1,0 +1,16 @@
+{
+	title: "一切的开始",
+	x: -2.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	text: [
+		"magic pouch 魔法包",
+		"是一个受All the Magic启发而制作的整合包",
+		"玩家可以在这里尽情发展他们想要发展的魔法模组"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6f9a09c3",
+		type: "checkmark"
+	}]
+}

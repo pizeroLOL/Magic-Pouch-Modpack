@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"12009244"
+	],
+	tasks: [{
+		uid: "6e96a78f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}]
+}

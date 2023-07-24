@@ -1,0 +1,45 @@
+{
+	x: 12.0d,
+	y: 0.5d,
+	dependencies: [
+		"b648da97"
+	],
+	tasks: [{
+		uid: "23f80c17",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe78a485",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "02bf0b47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

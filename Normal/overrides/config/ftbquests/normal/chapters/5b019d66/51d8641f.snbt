@@ -1,0 +1,60 @@
+{
+	title: "众神的宠儿",
+	x: -3.5d,
+	y: -3.5d,
+	description: "得到全部觉醒祭品",
+	text: [
+		"想要得到全部的祭品，你要使用凡人石摘下已经佩戴上的觉醒神圣象征。",
+		"但每摘一次，你就会面临着死亡审判",
+		"所以，为了避免死亡，你需要准备足够多的救命物品"
+	],
+	dependencies: [
+		"953f6fb7"
+	],
+	tasks: [{
+		uid: "ec141f5b",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 1"
+		}]
+	},
+	{
+		uid: "9827c6fb",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 3"
+		}]
+	},
+	{
+		uid: "af37efb3",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 5"
+		}]
+	},
+	{
+		uid: "857902a9",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 8"
+		}]
+	},
+	{
+		uid: "b7d3d976",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "irisDyeAwakened",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any irisDyeAwakened"
+				}
+			}
+		}]
+	}]
+}

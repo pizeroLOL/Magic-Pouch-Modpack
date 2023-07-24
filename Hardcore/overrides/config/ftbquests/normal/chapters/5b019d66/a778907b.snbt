@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	dependencies: [
+		"e0e44b8b"
+	],
+	tasks: [{
+		uid: "ea7464e8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}]
+	}]
+}

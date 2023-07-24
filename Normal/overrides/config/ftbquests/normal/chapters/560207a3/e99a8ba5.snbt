@@ -1,0 +1,26 @@
+{
+	title: "窥探万物",
+	x: -2.0d,
+	y: 4.5d,
+	description: "制作魔导透镜",
+	dependencies: [
+		"2316b219"
+	],
+	tasks: [{
+		uid: "cb574dd0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "622e1f9b",
+		type: "choice",
+		table: 2
+	}]
+}

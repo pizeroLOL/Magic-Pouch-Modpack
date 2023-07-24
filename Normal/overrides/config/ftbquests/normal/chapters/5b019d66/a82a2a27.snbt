@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"ec1366c4"
+	],
+	tasks: [{
+		uid: "954ef1e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:sacrifice_amulet"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:self_sacrifice_amulet"
+		}],
+		ignore_nbt: 1b
+	}]
+}

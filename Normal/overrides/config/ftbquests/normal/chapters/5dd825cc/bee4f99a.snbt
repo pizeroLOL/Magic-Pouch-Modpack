@@ -1,0 +1,50 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	dependencies: [
+		"117bbad2"
+	],
+	tasks: [{
+		uid: "c8e925be",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}],
+		count: 5L
+	},
+	{
+		uid: "20433bb4",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_iron"
+		}]
+	},
+	{
+		uid: "64a8908f",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		}]
+	},
+	{
+		uid: "8950cb37",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_lead"
+		}]
+	},
+	{
+		uid: "6544026e",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_silver"
+		}]
+	},
+	{
+		uid: "59416ce5",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_dawnstone"
+		}]
+	}]
+}

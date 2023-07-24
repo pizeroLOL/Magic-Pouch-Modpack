@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	dependencies: [
+		"26f28f31"
+	],
+	tasks: [{
+		uid: "2a25a333",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:stasis_sword",
+			tag: {
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

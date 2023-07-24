@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	dependencies: [
+		"3dc68daf"
+	],
+	tasks: [{
+		uid: "87217b28",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		}]
+	}],
+	rewards: [{
+		uid: "0fb5ce42",
+		type: "choice",
+		table: 3
+	}]
+}

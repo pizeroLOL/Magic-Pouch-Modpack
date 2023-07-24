@@ -1,0 +1,47 @@
+{
+	title: "起个匠魂炉……我炉子呢？",
+	icon: "tconstruct:smeltery_controller",
+	x: 7.5d,
+	y: -1.5d,
+	text: [
+		"是的，你没看错，这个包的匠魂部件需要余烬制作，用你的冲压模具去压部件去吧。"
+	],
+	dependencies: [
+		"5ac65a77"
+	],
+	tasks: [{
+		uid: "3cbf4f23",
+		type: "item",
+		items: [{
+			id: "embersconstruct:stamp",
+			tag: {
+				stamp: "embersconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "1caa29c4",
+		type: "item",
+		items: [{
+			id: "embersconstruct:stamp",
+			tag: {
+				stamp: "embersconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "27824e76",
+		type: "item",
+		items: [{
+			id: "embersconstruct:stamp",
+			tag: {
+				stamp: "embersconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "60afa08f",
+		type: "choice",
+		table: 6
+	}]
+}

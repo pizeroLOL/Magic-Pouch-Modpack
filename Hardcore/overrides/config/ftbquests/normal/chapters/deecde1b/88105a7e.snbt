@@ -1,0 +1,35 @@
+{
+	title: "腐化的反噬",
+	x: 1.0d,
+	y: 1.0d,
+	description: "腐化将以人形示人，不过...他可不会带着什么好意",
+	text: [
+		"搭建元始矩阵，吸收足够多的裂隙能量，就能在祭坛的中心召唤这只扭曲的怪物"
+	],
+	dependencies: [
+		"28c2fd3a"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "28ca0d21",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:primal_cutter",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				},
+				{
+					lvl: 1s,
+					id: 2s
+				}]
+			}
+		},
+		entity: "thaumicwonders:corruption_avatar",
+		value: 1L
+	}]
+}

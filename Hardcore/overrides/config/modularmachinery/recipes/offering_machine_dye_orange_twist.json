@@ -1,0 +1,36 @@
+{
+    "machine": "offering_machine",
+    "registryName": "offering_dyeorange_twist",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "gugu-utils:mana",
+            "io-type": "input",
+            "mana": 15000
+          },
+          {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "naturalpledge:ragnarok_emblem",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "naturalpledge:iris_dye@1",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "naturalpledge:ragnarok_emblem",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:dye@14",
+            "amount": 8
+        }
+    ]
+}

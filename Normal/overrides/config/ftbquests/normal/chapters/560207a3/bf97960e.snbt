@@ -1,0 +1,15 @@
+{
+	title: "注入鲜血",
+	x: -4.0d,
+	y: -7.0d,
+	dependencies: [
+		"2ce6b337"
+	],
+	tasks: [{
+		uid: "4a4f0511",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}]
+}

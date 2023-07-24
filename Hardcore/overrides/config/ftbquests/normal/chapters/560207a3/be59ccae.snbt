@@ -1,0 +1,25 @@
+{
+	title: "核心构建准备",
+	x: -5.5d,
+	y: 2.0d,
+	description: "将金粒丢进魔力中，得到炫珠母液",
+	dependencies: [
+		"5caca9f1"
+	],
+	tasks: [{
+		uid: "02c84814",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nacre_fluid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

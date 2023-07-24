@@ -1,0 +1,12 @@
+{
+  "name" : "门瑞欧树与陨石？",
+  "icon" : "integrateddynamics:menril_sapling",
+  "category" : "tips",
+  "sortnum" : 3,
+  "pages" : [
+    {
+      "type" : "text",
+      "text" : "门瑞欧树与陨石的生成被禁用了，请使用魔法模组来制作门瑞欧树苗与压印模板！"
+    }
+ ]
+}

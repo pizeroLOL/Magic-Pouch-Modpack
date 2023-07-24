@@ -1,0 +1,16 @@
+{
+	title: "神之血",
+	x: -5.0d,
+	y: -2.0d,
+	description: "得到觉醒神圣之灵",
+	dependencies: [
+		"a6c7fd2f"
+	],
+	tasks: [{
+		uid: "1f04f947",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 10"
+		}]
+	}]
+}

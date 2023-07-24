@@ -1,0 +1,32 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"33a97d16"
+	],
+	tasks: [{
+		uid: "3098eaa0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:glass_sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "caf014bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodarsenal:glass_dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

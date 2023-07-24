@@ -1,0 +1,36 @@
+{
+    "machine": "offering_machine",
+    "registryName": "offering_dyecyan",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "gugu-utils:mana",
+            "io-type": "input",
+            "mana": 30000
+          },
+          {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "naturalpledge:priest_emblem@3",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "naturalpledge:iris_dye@9",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "naturalpledge:priest_emblem@3",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:dye@6",
+            "amount": 8
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	x: -9.5d,
+	y: -0.5d,
+	description: "修饰词",
+	text: [
+		"将守门者之杖放在注法台上，用任意材质的匕首右键打开修饰界面。",
+		"选择一个法术，打开修饰界面后即可消耗对应草药对法术进行修饰。",
+		"修饰后的技能无法取消，只能通过右键来开启或关闭修饰。",
+		"守门者之杖的K键界面不能修饰新的词条，但是可以开关修饰效果。"
+	],
+	dependencies: [
+		"735f1e05"
+	],
+	tasks: [{
+		uid: "279232de",
+		type: "item",
+		items: [{
+			id: "roots:imposer",
+			tag: {
+				WitcheryPriIncUsr: "123"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee5daaf5",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "thaumcraft初阶奖励",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		item: "thaumcraft:ingot 1 2",
+		count: 3
+	}]
+}

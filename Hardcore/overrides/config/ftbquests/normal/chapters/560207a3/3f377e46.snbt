@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -0.5d,
+	dependencies: [
+		"4de4e363"
+	],
+	tasks: [{
+		uid: "5a911ef1",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"b32f15ea"
+	],
+	tasks: [{
+		uid: "f1cdf7c7",
+		type: "item",
+		items: [{
+			item: "aetherworks:moonlight_amplifier"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d2c8b79b",
+		type: "item",
+		items: [{
+			item: "aetherworks:aether_prism_controller_matrix"
+		}],
+		count: 4L
+	}]
+}

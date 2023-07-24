@@ -1,0 +1,27 @@
+{
+	title: "血液与魔法",
+	x: -2.5d,
+	y: -4.0d,
+	description: "获得血染知书，开启血魔法之旅",
+	text: [
+		"当你走上这条路的时候，想必你也已经看过四位大师的忠告了对吧？",
+		"感谢提比略，贝拉.海珀恩，弗拉德.海珀恩，阿尔卡纳四位大师写下了这一本手记，以便血魔法这一技术得以流传于世。",
+		"开始你的血魔法之旅吧，无论因为什么。"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2dde60a4"
+	],
+	tasks: [{
+		uid: "fa0c6645",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "巫术初阶奖励",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "witchery:bat_wool",
+		count: 2
+	},
+	{
+		item: "witchery:koboldite_dust",
+		count: 3
+	},
+	{
+		item: "witchery:ent_twig"
+	}]
+}

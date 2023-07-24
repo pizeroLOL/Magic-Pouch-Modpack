@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"2c5ec252"
+	],
+	tasks: [{
+		uid: "c228920d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:bomb",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3085fde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:bomb"
+		}],
+		ignore_nbt: 1b
+	}]
+}

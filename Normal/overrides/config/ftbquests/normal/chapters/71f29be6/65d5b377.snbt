@@ -1,0 +1,16 @@
+{
+	title: "地狱箱子",
+	icon: "netherchest:nether_chest",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"地狱箱子是一个扩展版的普通箱子，但是它每个格子可以容纳512个同类物品。"
+	],
+	tasks: [{
+		uid: "04fbfc1c",
+		type: "item",
+		items: [{
+			item: "netherchest:nether_chest"
+		}]
+	}]
+}

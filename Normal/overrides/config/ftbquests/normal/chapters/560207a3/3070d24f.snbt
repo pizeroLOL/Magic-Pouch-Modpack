@@ -1,0 +1,21 @@
+{
+	title: "浸渍",
+	x: -3.0d,
+	y: 0.5d,
+	description: "将一本书丢进魔力里",
+	dependencies: [
+		"8cfa054f"
+	],
+	tasks: [{
+		uid: "9c4eff3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wizardry:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

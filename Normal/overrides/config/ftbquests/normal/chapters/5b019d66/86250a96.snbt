@@ -1,0 +1,17 @@
+{
+	title: "圣洁的呼唤",
+	x: -2.0d,
+	y: -2.0d,
+	description: "搭建仪式觉醒祭坛",
+	dependencies: [
+		"6d94d860"
+	],
+	tasks: [{
+		uid: "e7078f6f",
+		type: "item",
+		items: [{
+			item: "naturalpledge:divine_core"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	dependencies: [
+		"fdfb77dc"
+	],
+	tasks: [{
+		uid: "228945ae",
+		type: "item",
+		items: [{
+			item: "wizardry:fairy_wings"
+		}]
+	},
+	{
+		uid: "cfd5aacc",
+		type: "item",
+		items: [{
+			item: "wizardry:sky_dust"
+		}]
+	}]
+}

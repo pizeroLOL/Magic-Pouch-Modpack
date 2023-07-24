@@ -1,0 +1,42 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	dependencies: [
+		"a10af518"
+	],
+	tasks: [{
+		uid: "ec6bb49b",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 7"
+		}]
+	},
+	{
+		uid: "ce31b740",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 10"
+		}]
+	},
+	{
+		uid: "ba897774",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 26"
+		}]
+	},
+	{
+		uid: "06d96580",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 25"
+		}]
+	},
+	{
+		uid: "a62b46d5",
+		type: "item",
+		items: [{
+			item: "aetherworks:item_resource 1 14"
+		}]
+	}]
+}
